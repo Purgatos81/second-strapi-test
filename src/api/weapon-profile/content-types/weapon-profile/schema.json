@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapon_profiles",
+  "info": {
+    "singularName": "weapon-profile",
+    "pluralName": "weapon-profiles",
+    "displayName": "WEAPON PROFILE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NAME": {
+      "type": "string"
+    },
+    "RANGE": {
+      "type": "string"
+    },
+    "TYPE": {
+      "type": "string"
+    },
+    "STRENGT": {
+      "type": "string"
+    },
+    "AP": {
+      "type": "string"
+    },
+    "DAMAGE": {
+      "type": "string"
+    },
+    "ABILITIES": {
+      "type": "text"
+    }
+  }
+}

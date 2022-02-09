@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stratagems",
+  "info": {
+    "singularName": "stratagem",
+    "pluralName": "stratagems",
+    "displayName": "STRATAGEM"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Rules": {
+      "type": "richtext"
+    },
+    "Cost": {
+      "type": "integer"
+    }
+  }
+}
