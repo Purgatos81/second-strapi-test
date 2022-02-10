@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "units",
+  "info": {
+    "singularName": "unit",
+    "pluralName": "units",
+    "displayName": "UNIT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Move": {
+      "type": "string"
+    },
+    "WeaponSkill": {
+      "type": "string"
+    },
+    "BallisticSkill": {
+      "type": "string"
+    },
+    "Strengt": {
+      "type": "string"
+    },
+    "Toughnes": {
+      "type": "string"
+    },
+    "Wounds": {
+      "type": "string"
+    },
+    "Attacks": {
+      "type": "string"
+    },
+    "Leadership": {
+      "type": "string"
+    },
+    "Save": {
+      "type": "string"
+    },
+    "CostPerModel": {
+      "type": "integer"
+    }
+  }
+}
