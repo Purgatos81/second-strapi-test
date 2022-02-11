@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stratagem",
     "pluralName": "stratagems",
-    "displayName": "STRATAGEM"
+    "displayName": "stratagem",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "Type": {
       "type": "string"
