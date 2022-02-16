@@ -47,6 +47,23 @@
     },
     "Description": {
       "type": "richtext"
+    },
+    "troopname": {
+      "type": "string",
+      "required": true
+    },
+    "championname": {
+      "type": "string"
+    },
+    "championattack": {
+      "type": "string"
+    },
+    "championleadership": {
+      "type": "string"
+    },
+    "championpresent": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
