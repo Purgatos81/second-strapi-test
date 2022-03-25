@@ -64,6 +64,11 @@
     "championpresent": {
       "type": "boolean",
       "default": false
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
